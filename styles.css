@@ -16,6 +16,9 @@ header {
     padding: 1rem 0;
     transition: background-color 0.5s ease-in-out;
 }
+header::first-letter{
+    color:aqua
+}
 header:hover{
     background-color: red;
 }
